@@ -1,0 +1,54 @@
+/* 深色Fusion主题，保留边框 */
+QWidget {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font: 10pt "Microsoft YaHei", sans-serif;
+}
+
+QGroupBox {
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-top: 1ex;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 6px;
+    background-color: #3c3f41;
+}
+
+QListWidget {
+    border: 1px solid #555555;
+    background: #1e1e1e;
+}
+
+QPushButton {
+    background-color: #3c3f41;
+    color: #ffffff;
+    border: 1px solid #636363;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #484a4c;
+}
+
+QPushButton:disabled {
+    background-color: #2a2a2a;
+    color: #777777;
+}
+
+QTabBar::tab {
+    background: #3c3f41;
+    border: 1px solid #555555;
+    padding: 4px 8px;
+    margin-right: -1px;
+}
+
+QTabBar::tab:selected {
+    background: #2b2b2b;
+    border-bottom: 2px solid #0099ff;
+}

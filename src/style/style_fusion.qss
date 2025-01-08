@@ -1,0 +1,96 @@
+/* style_fusion.qss */
+
+/* 基础样式 */
+QWidget {
+    background-color: #f0f0f0;
+    color: #333333;
+    font: 10pt "Microsoft YaHei", sans-serif;
+}
+
+/* 分组框 */
+QGroupBox {
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    margin-top: 1ex;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 6px;
+}
+
+/* 列表控件 */
+QListWidget {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+}
+
+/* 按钮 */
+QPushButton {
+    background-color: #dcdcdc;
+    border: 1px solid #aaaaaa;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #c8c8c8;
+}
+
+QPushButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+/* 标签页 */
+QTabBar::tab {
+    background: #e8e8e8;
+    border: 1px solid #aaaaaa;
+    padding: 4px 8px;
+    margin-right: -1px;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-bottom: 2px solid #0078d7;
+}
+
+/* 复选框 */
+QCheckBox {
+    spacing: 4px;
+}
+
+/* 工具提示 */
+QToolTip {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #aaaaaa;
+    padding: 2px 4px;
+}
+
+/* 菜单栏 */
+QMenuBar {
+    background-color: #e8e8e8;
+    color: #333333;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #cccccc;
+}
+
+/* 菜单 */
+QMenu {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+QMenu::item:selected {
+    background-color: #dddddd;
+}
